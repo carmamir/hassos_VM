@@ -1,12 +1,12 @@
 # hassos_VM
 
-Here you can find an OVA/OVF and VHD/VHDX files base on the HassOS Project.
+Here you can find an OVA/OVF and VHD/VHDX files base on the HassOS Project VMDK files.
 
 steps:
   1.The vmdk file is downloaded from here https://github.com/home-assistant/hassos/releases
   2.A VM is created on Oracle VM VirtualBox
   3.The VM get exported to ova Version 1/2
-  4. ova V1 is inported to VMware Workstation Pro 14 (or ESXI 6.5)
+  4. ova V1 is imported to VMware Workstation Pro 14 (or ESXI 6.5)
   5. VM get exported to ovf and vmdk (disk)
   
   6.TBD (hyper-v) 
@@ -20,9 +20,12 @@ steps:
     Motherboard: EFI
     Network: NAT
     
-    
+ ------------------------------------------------------------------------------------------------------------------------------   
+ OVF ( Vmware compatible )
+ OVA V1 ( Oracle VM VirtualBox /Vmware not fully supported )
+ OVA V2 ( Oracle VM VirtualBox compatible )
   
-
+------------------------------------------------------------------------------------------------------------------------------
 More Info here : https://github.com/home-assistant/hassos/
 
 HassOS
