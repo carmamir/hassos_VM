@@ -12,7 +12,7 @@ steps:
   6.TBD (hyper-v) 
 
   VM settings:
-    Name: Hassio{version}
+    Name: HassOS{version}
     Type: Linux
     Version: Other linux (64bit)
     Ram: 2048
